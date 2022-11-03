@@ -13,9 +13,14 @@ body, .userInput, .buttons {
     height: 500px;
     width: 500px;
     display: grid;
+    margin-bottom: 16px;
 }
 
 .buttons, .userInput {
     gap: 8px;
     padding: 8px;
+}
+
+h1, button, input {
+    font-family: monospace;
 }
